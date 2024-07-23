@@ -2,9 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import { Otp } from './otpForm.jsx'
-import { CourseList } from './CourseList.jsx'
-import { Batches } from './Batches.jsx'
+import { Otp } from './OTP Components/otpForm.jsx'
+import { CourseList } from './COURSE COMPONENT/CourseList.jsx'
+import { Batches } from './BATCHES Components/Batches.jsx'
 import {createBrowserRouter,RouterProvider}from 'react-router-dom';
 const router=createBrowserRouter([
   {

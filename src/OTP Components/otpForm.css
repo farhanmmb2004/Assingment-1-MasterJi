@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+color: white;
+font-family: sans-serif;
+}
+.main{
+    height: 100vh;
+    background-color: rgb(149, 149, 238);
+}
+.OTP-BOX{
+    background-color: white;
+    height: 300px;
+    width: 400px;
+    border-radius:10px;
+}
+.OTP-BOX h2{
+color: black;
+padding-top: 20px;
+margin-left: 55px;
+}
+.OTP-BOX h5{
+    color: rgba(0, 0, 0, 0.24);
+    margin-top: -10px;
+    margin-left: 50px;
+    }
+.content h1{
+    margin-left: 100px;
+}
+.content #h51{
+    margin-top: 0;
+    margin-left: 140px;
+}
+.content #input{
+    margin-top: 20px;
+    margin-left: 40px;
+    display: flex;
+}
+.content #input input{
+   margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    border: 0px;
+    border-radius:10px;
+    background-color: rgba(44, 102, 141, 0.726);
+}
+.submit{
+    margin-top: 15px;
+    margin-left: 50px;
+    height: 40px;
+    width: 300px;
+    background-color: rgb(19, 62, 97);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.content span{
+    margin-left:70px ;
+color: rgba(0, 0, 0, 0.24);;
+}
+.content #p1{
+color: blue;
+margin-left: 0px;
+cursor: pointer;
+}
+@media (max-width: 500px) {
+    .content{
+        margin-left:5px;
+    }
+}
+   
+@media (min-width: 500px) and (max-width: 900px) {
+    .content{
+        margin-left:10rem ;
+    }
+}
+
+@media (min-width: 900px) {
+    .content{
+        margin-left: 20rem ;
+    }
+}
